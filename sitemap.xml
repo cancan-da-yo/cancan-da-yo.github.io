@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://cancan-da-yo.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2024-08-29T17:20:01+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://cancan-da-yo.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://cancan-da-yo.github.io/ar/sitemap.xml</loc>
-    
-      <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sanaka.us.kg/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanaka.us.kg/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanaka.us.kg/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanaka.us.kg/categories/</loc>
+  </url><url>
+    <loc>https://sanaka.us.kg/tags/</loc>
+  </url><url>
+    <loc>https://sanaka.us.kg/categories/test/</loc>
+  </url><url>
+    <loc>https://sanaka.us.kg/%E5%85%B3%E4%BA%8E/</loc>
+  </url><url>
+    <loc>https://sanaka.us.kg/search/</loc>
+  </url><url>
+    <loc>https://sanaka.us.kg/%E5%8F%8B%E9%93%BE/</loc>
+  </url>
+</urlset>
