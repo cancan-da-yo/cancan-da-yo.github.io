@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Sanaka</title>
-        <link>https://sanaka.us.kg/post/</link>
-        <description>Recent content in Posts on Sanaka</description>
+        <title>测试 on Sanaka</title>
+        <link>https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/</link>
+        <description>Recent content in 测试 on Sanaka</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Sanaka</copyright>
-        <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sanaka.us.kg/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>这真的只是一篇测试文章哦</title>
         <link>https://sanaka.us.kg/p/test-chinese/</link>
         <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>

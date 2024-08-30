@@ -6,13 +6,14 @@
         <description>Recent content in Categories on Sanaka</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Sanaka</copyright><atom:link href="https://sanaka.us.kg/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Test</title>
-        <link>https://sanaka.us.kg/categories/test/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <copyright>Sanaka</copyright>
+        <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sanaka.us.kg/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>测试</title>
+        <link>https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://sanaka.us.kg/categories/test/</guid>
-        <description>&lt;img src="https://sanaka.us.kg/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;img src="https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 测试" /&gt;</description>
         </item>
         
     </channel>
