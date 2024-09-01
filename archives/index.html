@@ -6,7 +6,25 @@
 
 <link rel='canonical' href='https://sanaka.us.kg/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.8c6a967e6b4af46c21d2693f945373aeaa48b5efcf1588a92c808d697c197378.css"><meta property='og:title' content="归档">
+<link rel="stylesheet" href="/scss/style.min.1ab886ab721f74c0fd2213b1a4cd3a206e0124c16c8e25b2796438107cdcb991.css"><script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+    
+    $(window).scroll(function() {
+    if ($(this).scrollTop()) {
+        $('#back-to-top').fadeIn();
+    } else {
+        $('#back-to-top').fadeOut();
+    }
+    });
+
+    
+    $('#back-to-top').click(function() {
+    $('html, body').animate({scrollTop: 0}, 1000);
+    return false;
+    });
+</script>
+<meta property='og:title' content="归档">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://sanaka.us.kg/archives/'>
 <meta property='og:site_name' content='Sanaka'>
