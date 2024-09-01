@@ -327,5 +327,46 @@
     });
 </script>
 
+
+<script>
+    
+    function backToTop() {
+        
+        window.scrollTo(0, 0);
+    }
+
+    
+    window.onload = function() {
+        
+        let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+        
+        let totopBtn = this.document.getElementById('back-to-top');
+        if (scrollTop > 0) {
+            
+            totopBtn.style.display = 'inline';
+        } else {
+            
+            totopBtn.style.display = 'none';
+        }
+    }
+
+    
+    window.onscroll = function() {
+        
+        let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+        
+        let totopBtn = this.document.getElementById('back-to-top');
+        if (scrollTop < 200) {
+            
+            totopBtn.style.display = 'none';
+        } else {
+            
+            totopBtn.style.display = 'inline';
+            totopBtn.addEventListener('click', backToTop, false);
+        }
+    }
+</script>
+
+
     </body>
 </html>
