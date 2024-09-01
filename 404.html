@@ -306,44 +306,18 @@
 
 
 <script>
-    
-    function backToTop() {
-        
-        window.scrollTo(0, 0);
-    }
+    let s1 = '2024-8-29'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
 
-    
-    window.onload = function() {
-        
-        let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
-        
-        let totopBtn = this.document.getElementById('back-to-top');
-        if (scrollTop > 0) {
-            
-            totopBtn.style.display = 'inline';
-        } else {
-            
-            totopBtn.style.display = 'none';
-        }
-    }
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 
-    
-    window.onscroll = function() {
-        
-        let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
-        
-        let totopBtn = this.document.getElementById('back-to-top');
-        if (scrollTop < 200) {
-            
-            totopBtn.style.display = 'none';
-        } else {
-            
-            totopBtn.style.display = 'inline';
-            totopBtn.addEventListener('click', backToTop, false);
-        }
-    }
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
 </script>
-
 
     </body>
 </html>
