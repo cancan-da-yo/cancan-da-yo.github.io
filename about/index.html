@@ -4,9 +4,9 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="关于？ 我哪知道啊">
 <title>关于</title>
 
-<link rel='canonical' href='https://sanaka.us.kg/%E5%85%B3%E4%BA%8E/'>
+<link rel='canonical' href='https://sanaka.us.kg/about/'>
 
-<link rel="stylesheet" href="/scss/style.min.331f154b0f9c8fc06ced818fcb25d1889c047bff55361cb815bb0a455061099f.css"><script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<link rel="stylesheet" href="/scss/style.min.b5e52b6ba5cb4244153361a3feff9e494e1b2a34270765a96d713b64d38d9684.css"><script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script>
     
@@ -26,7 +26,7 @@
 </script>
 <meta property='og:title' content="关于">
 <meta property='og:description' content="关于？ 我哪知道啊">
-<meta property='og:url' content='https://sanaka.us.kg/%E5%85%B3%E4%BA%8E/'>
+<meta property='og:url' content='https://sanaka.us.kg/about/'>
 <meta property='og:site_name' content='Sanaka'>
 <meta property='og:type' content='article'><meta property='article:section' content='Page' />
 <meta name="twitter:title" content="关于">
@@ -154,7 +154,7 @@
         
         
         <li  class='current' >
-            <a href='/%E5%85%B3%E4%BA%8E/' >
+            <a href='/about/' >
                 
                 
                 
@@ -212,7 +212,7 @@
         
         
         <li >
-            <a href='/%E5%8F%8B%E9%93%BE/' >
+            <a href='/links/' >
                 
                 
                 
@@ -269,7 +269,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/%E5%85%B3%E4%BA%8E/">关于</a>
+            <a href="/about/">关于</a>
         </h2>
     
         
@@ -379,12 +379,19 @@
         
         2024 Sanaka
     </section>
-    
+	
     <section class="powerby">
         
             <a href="https://icp.gov.moe/?keyword=20242101" target="_blank" style="color:#FF69B4;">萌ICP备20242101号</a> <br/>
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        
+		
+			
+<section class="running-time">
+本博客已稳定运行
+<span id="runningdays" class="running-days"></span>
+</section>Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+Designed with the <a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a> theme by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+
     </section>
 </footer>
 
@@ -483,6 +490,20 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+<script>
+    let s1 = '2024-8-29'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
 </script>
 
     </body>
