@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let colorScheme = Cookies.get('color-scheme');
+    let colorScheme = localStorage.getItem('color-scheme');
 
     if (!colorScheme) {
-        // 如果没有存储的偏好，默认使用暗色模式
-        colorScheme = 'dark';
-        Cookies.set('color-scheme', colorScheme, { expires: 365 });
+        // 如果没有存储的偏好，使用系统默认设置
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        colorScheme = prefersDarkScheme ? 'dark' : 'light';
+        localStorage.setItem('color-scheme', colorScheme);
     }
 
     document.documentElement.setAttribute('data-scheme', colorScheme);
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let currentScheme = document.documentElement.getAttribute('data-scheme');
             let newScheme = currentScheme === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-scheme', newScheme);
-            Cookies.set('color-scheme', newScheme, { expires: 365 });
+            localStorage.setItem('color-scheme', newScheme);
         });
     }
 });
