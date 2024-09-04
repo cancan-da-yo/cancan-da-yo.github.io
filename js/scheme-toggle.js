@@ -1,14 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // 获取颜色模式
-    let colorScheme = localStorage.getItem('color-scheme');
+    let colorScheme = Cookies.get('color-scheme');
 
     if (!colorScheme) {
-        // 如果没有用户偏好，默认使用暗色模式
+        // 如果没有存储的偏好，默认使用暗色模式
         colorScheme = 'dark';
-        localStorage.setItem('color-scheme', colorScheme);
+        Cookies.set('color-scheme', colorScheme, { expires: 365 });
     }
 
-    // 应用颜色模式
     document.documentElement.setAttribute('data-scheme', colorScheme);
 
     // 切换按钮逻辑
@@ -18,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let currentScheme = document.documentElement.getAttribute('data-scheme');
             let newScheme = currentScheme === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-scheme', newScheme);
-            localStorage.setItem('color-scheme', newScheme);
+            Cookies.set('color-scheme', newScheme, { expires: 365 });
         });
     }
 });
