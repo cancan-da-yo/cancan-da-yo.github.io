@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>https://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>测试</title>
-      <link>https://example.org/categories/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/%E6%B5%8B%E8%AF%95/</guid>
-      <description></description>
-    </item>
-  </channel>
+    <channel>
+        <title>Categories on Sanaka</title>
+        <link>https://sanaka.us.kg/categories/</link>
+        <description>Recent content in Categories on Sanaka</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Sanaka</copyright>
+        <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sanaka.us.kg/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>测试</title>
+        <link>https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;img src="https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 测试" /&gt;</description>
+        </item>
+        
+    </channel>
 </rss>
