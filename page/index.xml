@@ -1,55 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Pages on Sanaka</title>
-        <link>https://sanaka.us.kg/page/</link>
-        <description>Recent content in Pages on Sanaka</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>Sanaka</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sanaka.us.kg/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>归档</title>
-        <link>https://sanaka.us.kg/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://sanaka.us.kg/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>关于</title>
-        <link>https://sanaka.us.kg/about/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://sanaka.us.kg/about/</guid>
-        <description>&lt;p&gt;关于？&lt;br&gt;
-我哪知道啊&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>https://sanaka.us.kg/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://sanaka.us.kg/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>友链</title>
-        <link>https://sanaka.us.kg/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://sanaka.us.kg/links/</guid>
-        <description>&lt;p&gt;友链会放在这里哦，话说这些算友链吗？&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>友链</title>
-        <link>https://sanaka.us.kg/friends/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://sanaka.us.kg/friends/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Pages on My New Hugo Site</title>
+    <link>https://example.org/page/</link>
+    <description>Recent content in Pages on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>归档</title>
+      <link>https://example.org/page/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.org/page/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://example.org/page/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.org/page/about/</guid>
+      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;Apache License 2.0.&lt;/a&gt;&#xA;&#xA;&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;&#xA;    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;&#xA;    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;&#xA;        fill=&#34;currentColor&#34;&gt;&#xA;&lt;/svg&gt;&lt;/span&gt;&#xA;&#xA; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>友链</title>
+      <link>https://example.org/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/links/</guid>
+      <description>&lt;p&gt;友链会放在这里哦，话说这些算友链吗？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>友链</title>
+      <link>https://example.org/page/friends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/page/friends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>搜索</title>
+      <link>https://example.org/page/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/page/search/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>
