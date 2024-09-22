@@ -2,44 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://sanaka.us.kg/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://sanaka.us.kg/categories/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/</loc>
+    <loc>https://sanaka.us.kg/post/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://sanaka.us.kg/p/unbelievable-true-story/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/unbelievable-true-story/</loc>
+    <loc>https://sanaka.us.kg/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://sanaka.us.kg/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/test/test-chinese/</loc>
+    <loc>https://sanaka.us.kg/p/test-chinese/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/page/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/page/archives/</loc>
+    <loc>https://sanaka.us.kg/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/page/about/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <loc>https://sanaka.us.kg/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/_index.zh-cn/</loc>
+    <loc>https://sanaka.us.kg/tags/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://sanaka.us.kg/about/</loc>
   </url><url>
-    <loc>https://example.org/links/</loc>
+    <loc>https://sanaka.us.kg/search/</loc>
   </url><url>
-    <loc>https://example.org/page/friends/</loc>
+    <loc>https://sanaka.us.kg/links/</loc>
   </url><url>
-    <loc>https://example.org/page/search/</loc>
+    <loc>https://sanaka.us.kg/friends/</loc>
   </url>
 </urlset>
